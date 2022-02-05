@@ -96,7 +96,7 @@ button:active {
 
 @media (max-width: 600px) {
     .output {
-    margin-bottom: auto;
+    margin: 10px 0 10px 0;
     }
 }
 
