@@ -45,8 +45,8 @@ body {
         padding-top: 20px;
         width: auto;
         border: none;
-        padding: auto;
-        margin: auto;
+        padding: 20px 0px 20px 0px;
+        margin: 0;
         border-radius: 0px;
     }
 }
