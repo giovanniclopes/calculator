@@ -4,8 +4,6 @@
 <h1><strong>A Calculadora</strong></h1>
 </div>
 
-## Projeto Calculadora
-
 #### :arrow_right: *_https://giovanniclopes.github.io/calculator_* :arrow_left:
 
 ## O que foi utilizado?
