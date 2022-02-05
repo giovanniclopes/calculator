@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="readme.css">
 
 <div>
-<h1><strong>A Calculadora</strong></h1>
+<h1><strong>Calculadora</strong></h1>
 </div>
 
 #### :arrow_right: *_https://giovanniclopes.github.io/calculator_* :arrow_left:
