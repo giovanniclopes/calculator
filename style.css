@@ -6,7 +6,7 @@
     --background-color: #202020;
     --main-color: #79b791;
     --secundary-color: #abd1b5;
-    --dark-color: linear-gradient(-180deg, #9f9ea2, #aaa9ad, #b5b4b8, #c0bfc3);
+    --dark-color: linear-gradient(169deg,#9f9ea2 0%, #aaa9ad 40%, #c0bfc3 80%);
     --light-color: #dee3f1;
     --primary-font: 'Poppins', sans-serif;
 }
@@ -29,9 +29,11 @@ body {
     align-items: center;
     min-height: 90vh;
     width: fit-content;
-    border: 2px solid #273a2e;
     background: var(--dark-color);
-    border-radius: 10px;
+    box-shadow: 8px 15px 163px 20px rgba(0,0,0,0.45);
+    -webkit-box-shadow: 8px 15px 163px 20px rgba(0,0,0,0.45);
+    -moz-box-shadow: 8px 15px 163px 20px rgba(0,0,0,0.45);
+    border-radius: 20px;
     margin: 30px auto;
     padding: 0px 30px 40px 30px;
     grid-template-columns: repeat(4, 100px);
@@ -87,6 +89,9 @@ button:active {
     word-break: break-all;
     border-radius: 5px;
     margin-bottom: -50px;
+    box-shadow: -2px 2px 58px -30px rgba(0,0,0,1) inset;
+    -webkit-box-shadow: -2px 2px 58px -30px rgba(0,0,0,1) inset;
+    -moz-box-shadow: -px 2px 58px -30px rgba(0,0,0,1) inset;
 }
 
 @media (max-width: 600px) {
