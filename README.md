@@ -6,7 +6,7 @@
 
 ## Projeto Calculadora
 
-#### :arrow_right: *_https://giovanniclopes.github.io/nordician_* :arrow_left:
+#### :arrow_right: *_https://giovanniclopes.github.io/calculator_* :arrow_left:
 
 ## O que foi utilizado?
 
