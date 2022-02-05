@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="readme.css">
 
 <div>
 <h1><strong>Calculadora</strong></h1>
