@@ -5,7 +5,7 @@
 :root {
     --background-color: #202020;
     --main-color: #79b791;
-    --secundary-color: #abd1b5;
+    --secundary-color: hsl(218.00, 39%, 11%);
     --dark-color: linear-gradient(169deg,#9f9ea2 0%, #aaa9ad 40%, #c0bfc3 80%);
     --light-color: #dee3f1;
     --primary-font: 'Poppins', sans-serif;
@@ -18,7 +18,10 @@
 body {
     margin: 0;
     padding: 0;
-    background: var(--background-color);
+    background-color: #111927;
+    background-image: 
+        radial-gradient(at 80% 0%, hsl(162.00, 77%, 40%) 0, transparent 80%), 
+        radial-gradient(at 82% 65%, hsl(218.00, 39%, 11%) 0, transparent 55%);
     font: 500 17px var(--primary-font);
     color: #fff;
 }
@@ -29,24 +32,22 @@ body {
     align-items: center;
     min-height: 90vh;
     width: fit-content;
-    background: var(--dark-color);
-    box-shadow: 8px 15px 163px 20px rgba(0,0,0,0.45);
-    -webkit-box-shadow: 8px 15px 163px 20px rgba(0,0,0,0.45);
-    -moz-box-shadow: 8px 15px 163px 20px rgba(0,0,0,0.45);
-    border-radius: 20px;
+    backdrop-filter: blur(6px) saturate(200%);
+    -webkit-backdrop-filter: blur(6px) saturate(200%);
+    background-color: rgba(23, 31, 51, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);    
     margin: 30px auto;
-    padding: 0px 30px 40px 30px;
+    padding: 0px 30px 20px 30px;
     grid-template-columns: repeat(4, 100px);
     grid-template-rows: minmax(120px, auto) repeat(5, 75px);
 }
 
 @media (max-width: 600px) {
     .calculator-grid {
-        background: rgb(194, 194, 194);
-        padding-top: 20px;
         width: auto;
         border: none;
-        padding: 20px 0px 20px 0px;
+        padding: 5px 0px 5px 0px;
         margin: 0;
         border-radius: 0px;
     }
@@ -55,6 +56,7 @@ body {
 button {
     font: 500 20px var(--primary-font);
     background: var(--light-color);
+    color: var(--secundary-color);
     border: none;
     outline: none;
     border-radius: 5px;
