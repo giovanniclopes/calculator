@@ -124,3 +124,22 @@ button:active {
 .btn-operation {
     background: #dee3f1;
 }
+
+#footer {
+    display: flex;
+    border-top: 3px solid var(--main-color);
+    background-color: var(--bc-color);
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .copyright {
+    padding: 25px;
+    text-align: center;
+    font: normal 18px 'Poppins', sans-serif;
+    color: var(--light-color);
+  }
+
+  .copyright {
+      font-size: 15px;
+  }
