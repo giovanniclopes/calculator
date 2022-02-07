@@ -20,8 +20,8 @@ body {
     padding: 0;
     background-color: #111927;
     background-image: 
-        radial-gradient(at 80% 0%, hsl(162.00, 77%, 40%) 0, transparent 80%), 
-        radial-gradient(at 82% 65%, hsl(218.00, 39%, 11%) 0, transparent 55%);
+    radial-gradient(at 80% 0%, hsl(162.00, 77%, 40%) 0, transparent 80%), 
+    radial-gradient(at 82% 65%, hsl(218.00, 39%, 11%) 0, transparent 55%);
     font: 500 17px var(--primary-font);
     color: #fff;
 }
@@ -56,6 +56,8 @@ body {
 button {
     font: 500 20px var(--primary-font);
     background: var(--light-color);
+    backdrop-filter: blur(60px) saturate(200%);
+    -webkit-backdrop-filter: blur(6px) saturate(200%);
     color: var(--secundary-color);
     border: none;
     outline: none;
@@ -68,7 +70,7 @@ button {
 }
 
 button:hover {
-    opacity: 60%;
+    opacity: 80%;
 }
 
 button:active {
@@ -77,6 +79,10 @@ button:active {
 
 .span-two {
     grid-column: span 2;
+    background: var(--main-color);
+}
+
+.span-three {
     background: var(--main-color);
 }
 
@@ -91,7 +97,7 @@ button:active {
     min-height: 15vh;
     word-break: break-all;
     border-radius: 5px;
-    margin-bottom: -50px;
+    margin-bottom: -20px;
     box-shadow: -2px 2px 58px -30px rgba(0,0,0,1) inset;
     -webkit-box-shadow: -2px 2px 58px -30px rgba(0,0,0,1) inset;
     -moz-box-shadow: -px 2px 58px -30px rgba(0,0,0,1) inset;
@@ -100,18 +106,19 @@ button:active {
 @media (max-width: 600px) {
     .output {
     margin: 10px 5px 10px 5px;
-    border: 3px solid var(--main-color);
+    border: 1px solid var(--main-color);
     }
 }
 
 .output .previous-operand {
-    color: var(--background-color);
-    font-size: 18px;
+    color: rgb(75, 75, 75);
+    font-size: 16px;
 }
 
 .output .current-operand {
-    color: #131313;
-    font-size: 30px;
+    font-size: 34px;
+    color: var(--secundary-color);
+
 }
 
 .btn-operation {
