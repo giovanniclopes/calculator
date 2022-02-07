@@ -111,3 +111,7 @@ button:active {
     color: #131313;
     font-size: 30px;
 }
+
+.btn-operation {
+    background: #dee3f1;
+}
