@@ -45,6 +45,12 @@ class Calculator {
         case '*':
           computation = prev * current
           break
+        case 'x':
+          computation = prev * current
+          break
+        case '/':
+          computation = prev / current
+          break
         case '÷':
           computation = prev / current
           break
@@ -53,7 +59,7 @@ class Calculator {
       }
       this.currentOperand = computation
       this.operation = undefined
-      this.previousOperand = ''
+      this.previousOperand = 'asas'
     }
   
     getDisplayNumber(number) {

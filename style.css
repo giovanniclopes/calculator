@@ -143,3 +143,25 @@ button:active {
   .copyright {
       font-size: 15px;
   }
+
+  /* scroll */
+
+  ::-webkit-scrollbar {
+    background: var(--background-color);
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 200px;
+    background: #131313;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--light-color);
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: var(--main-color);
+}
+::-webkit-scrollbar-thumb:active {
+  background: var(--main-color);
+  }
